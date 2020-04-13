@@ -17,13 +17,14 @@ div.nav-item{
 }
 
 .right{
-    font-family: 'Satisfy', cursive;
     position: absolute;
     right: 0;
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: auto;
-    margin-right: 50px;
+    margin-top: 10px !important;
+    margin-right: 50px !important;
+}
+
+.nav-item img{
+    height: 44px;
 }
 
 div.nav-item:first-child{
@@ -44,30 +45,42 @@ div.nav-item a:hover{
 
 
 h1{
-    height: 800px;
-    padding-top: 360px;
+    height: 600px;
+    padding-top: 260px;
     font-size: 80px;
     color: white;
     margin: 0;
+    /*position: sticky;
+    top: 65px;*/
 }
 
-h2{
-    text-align: center;
+.main-black{
+    background-color: black;
+    z-index: -1;
+    opacity: 0.5;
+    height: 600px;
 }
 
 .main-img{
     z-index: -2;
 }
-.main-black{
-    background-color: black;
-    z-index: -1;
-    opacity: 0.5;
-    height: 800px;
-}
+
 .fixed-img{
     position: fixed;
     top: 65px;
     width: 100%;
+}
+
+@media only screen and (max-width: 1350px){
+    h1{
+        height: 400px;
+        font-size: 60px;
+        padding-top: 160px;
+    }
+}
+
+h2{
+    text-align: center;
 }
 
 .cover{

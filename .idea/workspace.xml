@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vlada" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,7 +69,8 @@
       <workItem from="1586179317251" duration="2771000" />
       <workItem from="1586450868084" duration="593000" />
       <workItem from="1586714969074" duration="1223000" />
-      <workItem from="1586765520693" duration="697000" />
+      <workItem from="1586765520693" duration="7339000" />
+      <workItem from="1586798649526" duration="2177000" />
     </task>
     <servers />
   </component>
