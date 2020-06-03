@@ -16,6 +16,7 @@ div.nav-item{
     vertical-align: middle;
 }
 
+
 .right{
     position: absolute;
     right: 0;
@@ -31,7 +32,7 @@ div.nav-item:first-child{
     margin: 20px;
     padding-left: 100px;
     position: relative;
-
+    padding-top: 3px;
 }
 
 div.nav-item a{
@@ -43,6 +44,9 @@ div.nav-item a:hover{
     text-decoration: none;
 }
 
+.hidden-btn{
+    color: red;
+}
 
 h1{
     height: 600px;
@@ -81,6 +85,7 @@ h1{
 
 h2{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .cover{
@@ -89,15 +94,9 @@ h2{
     padding-bottom: 50px;
 }
 
+.haha{
+    color: #fff;
+    background-color: #000;
+}
 
 
-
-/*
-.black{
-     background-color: black;
- }
-
-.black img{
-    opacity: 0.5;
-    width: 100%;
-}*/
