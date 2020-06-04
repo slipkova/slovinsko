@@ -41,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elis\moje\skola\it2\pvy\slovinsko\js" />
       <recent name="C:\Users\elis\moje\skola\it2\pvy\slovinsko\img" />
     </key>
   </component>
@@ -75,7 +76,8 @@
       <workItem from="1586848286405" duration="2062000" />
       <workItem from="1587493503457" duration="529000" />
       <workItem from="1590999158217" duration="3713000" />
-      <workItem from="1591183344341" duration="17401000" />
+      <workItem from="1591183344341" duration="17666000" />
+      <workItem from="1591255185227" duration="38711000" />
     </task>
     <servers />
   </component>
@@ -83,9 +85,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="758" y="270" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586104983419">
+    <state x="552" y="239" key="#Inspections" timestamp="1591274804075">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="758" y="270" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.388.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1586104983419" />
+    <state x="552" y="239" key="#Inspections/1920.388.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1591274804075" />
+    <state x="758" y="270" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591292985686">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="758" y="270" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.388.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1591292985686" />
   </component>
 </project>

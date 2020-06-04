@@ -1,6 +1,7 @@
 let imgs = document.getElementsByName("img");
 let srcs = ["img/testo.jpg", "img/done.jpg"];
 
+
 function toggleImg(src1){
         if(src1 == srcs[0])
             return srcs[1];
@@ -29,7 +30,6 @@ $(function(){
                 i = 0;
             }
             i++;
-
         }, 50);
 
 

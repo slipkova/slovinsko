@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+body{
+    font-family: 'IBM Plex Serif', serif;
+}
+
 div.nav{
     width: 100%;
     padding: 0;
     overflow: visible;
-    background-color: white;
+    background-color: #003752;
+    color: white;
     position: sticky;
     top: 0;
     z-index: 10;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #666;
 }
 
 div.nav-item{
@@ -36,11 +43,12 @@ div.nav-item:first-child{
 }
 
 div.nav-item a{
-    color: #2b2129;
+    /*color: #2b2129;*/
+    color: white;
 }
 
 div.nav-item a:hover{
-    color: #c2956e;
+    color: #89CAFF;
     text-decoration: none;
 }
 
@@ -48,7 +56,12 @@ div.nav-item a:hover{
     color: red;
 }
 
-h1{
+.header1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.header{
     height: 600px;
     padding-top: 260px;
     font-size: 80px;
@@ -58,10 +71,21 @@ h1{
     top: 65px;*/
 }
 
+h2{
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    /*background-color: #c00;
+    color: white;*/
+}
+
 .main-black{
     background-color: black;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.4;
     height: 600px;
 }
 
@@ -83,15 +107,9 @@ h1{
     }
 }
 
-h2{
-    text-align: center;
-    padding-bottom: 20px;
-}
-
 .cover{
     background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 .haha{
@@ -99,4 +117,76 @@ h2{
     background-color: #000;
 }
 
+iframe{
+    width: 100%;
+    height: 600px;
+}
+
+.footer{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #ffd500;
+    color: #003752;
+}
+
+.footer a{
+    color: #003752;
+}
+
+.centuries{
+    margin-top: 30px;
+    border-bottom: 5px solid #ffd500;
+}
+
+.centuries div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px solid rgba(0,0,0,.2);
+    cursor: pointer;
+}
+
+.centuries div:last-child{
+    border: 0;
+}
+
+@keyframes to-blue{
+    to{
+
+        background-color: #ffd500;
+        color: #003752;
+    }
+}
+
+.centuries div:hover{
+    animation-name: to-blue;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.history{
+    /*height: 500px;*/
+    margin-top: 15px;
+    margin-bottom: 50px;
+    min-height: 250px;
+}
+
+#years{
+    padding: 0;
+}
+
+#years div{
+    left: 5px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-bottom: 0;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #eee;
+}
+
+#years div:last-child{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+#years div:hover{
+    cursor: pointer;
+}
 
