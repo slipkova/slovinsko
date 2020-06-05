@@ -125,6 +125,7 @@ iframe{
 .footer{
     padding-bottom: 20px;
     padding-top: 20px;
+    margin-top: 20px;
     background-color: #ffd500;
     color: #003752;
 }

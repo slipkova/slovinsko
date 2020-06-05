@@ -26,43 +26,56 @@ $(()=>{
     console.log(centBtns);
 
     let yeyeBtns;
-    for(let btn of centBtns){
+    for(let btn of centBtns) {
         //po kliknuti na div se stoletim
-        btn.addEventListener('click', function(){
+        btn.addEventListener('click', function () {
             //pozadi divu se staletimi se zmeni na bile, pozadi divu, ktery byl vybran, se zmeni na zlute
-            for(let color of centBtns){
+            for (let color of centBtns) {
                 $(color).css("background-color", "white");
             }
             $(btn).css("background-color", "#ffd500");
 
             his.innerText = "";
-            info.innerHTML = "<div>" + infoCenturies[centBtns.indexOf(btn)][0].text + "</div>";
-            $(info).fadeIn("fast");
+            $(info).fadeOut("fast", () => {
 
-            $(yeye).slideUp("slow", ()=>{
-                yeye.innerHTML = "";
-                for(let year of infoCenturies[centBtns.indexOf(btn)]) {
-                    yeye.innerHTML += "<div>" + year.title + "</div>";
-                }
-                $(yeye).slideDown("slow");
-            })
-            //vypise divy s roky
+                //vypise divy s roky
+                $(yeye).slideUp("slow", () => {
+                    yeye.innerHTML = "";
+                    for (let year of infoCenturies[centBtns.indexOf(btn)]) {
+                        yeye.innerHTML += "<div>" + year.title + "</div>";
+                    }
+                    $(yeye.firstChild).css("background-color", "#003752");
+                    $(yeye.firstChild).css("color", "white");
 
-            //ulozi divy s roky do pole
-            yeyeBtns = Array.from(yeye.children);
-
-            for(let yeyeBtn of yeyeBtns){
-                //po kliknuti na div s rokem
-                yeyeBtn.addEventListener('click', ()=>{
-                    //zmizi predtim zobrazeny text
-                    $(info).fadeOut("fast", ()=>{
-                        //zobrazi se novy text se spravnym odsazenim shora
-                        info.innerHTML = "<div style='margin-top: " + yeyeBtns.indexOf(yeyeBtn)*45 + "px;'>" + infoCenturies[centBtns.indexOf(btn)][yeyeBtns.indexOf(yeyeBtn)].text + "</div>";
+                    yeyeBtns = Array.from(yeye.children);
+                    $(yeye).slideDown("slow", () => {
+                        info.innerHTML = "<div>" + infoCenturies[centBtns.indexOf(btn)][0].text + "</div>";
                         $(info).fadeIn("fast");
-                    });
+                        //ulozi divy s roky do pole
+                        yeyeBtns = Array.from(yeye.children);
 
+                        for (let yeyeBtn of yeyeBtns) {
+                            //po kliknuti na div s rokem
+                            yeyeBtn.addEventListener('click', () => {
+                                //zmizi predtim zobrazeny text
+                                for(let color of yeyeBtns){
+                                    $(color).css("background-color", "#eee");
+                                    $(color).css("color", "black");
+                                }
+                                $(yeyeBtn).css("background-color", "#003752");
+                                $(yeyeBtn).css("color", "white");
+
+                                console.log(yeyeBtn);
+                                $(info).fadeOut("fast", () => {
+                                    //zobrazi se novy text se spravnym odsazenim shora
+                                    info.innerHTML = "<div style='margin-top: " + yeyeBtns.indexOf(yeyeBtn) * 45 + "px;'>" + infoCenturies[centBtns.indexOf(btn)][yeyeBtns.indexOf(yeyeBtn)].text + "</div>";
+                                    $(info).fadeIn("fast");
+                                });
+                            });
+                        }
+                    })
                 })
-            }
+            })
         })
     }
 })
