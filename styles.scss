@@ -1,0 +1,232 @@
+$blue: #003752;
+$borderGray: 1px solid rgba(0,0,0,.2);
+$yellow: #ffd500;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+body{
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.container{
+  padding: 0;
+}
+
+div.nav{
+  width: 100%;
+  padding: 0;
+  overflow: visible;
+  background-color: $blue;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #666;
+}
+
+.right{
+  position: absolute;
+  right: 0;
+  margin-top: 10px !important;
+  margin-right: 50px !important;
+}
+
+div.nav-item {
+  margin: 20px;
+  margin-left: 0;
+  float: left;
+  vertical-align: middle;
+  img {
+    height: 44px;
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+    color: #8EFFF5;
+    text-decoration: none;
+  }
+}
+
+div.nav-item:first-child{
+  margin: 20px;
+  padding-left: 100px;
+  position: relative;
+  padding-top: 3px;
+}
+
+.hidden-btn{
+  color: red;
+}
+
+.header1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.header{
+  height: 600px;
+  padding-top: 260px;
+  font-size: 80px;
+  color: white;
+  margin: 0;
+  /*position: sticky;
+  top: 65px;*/
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: $borderGray;
+  /*background-color: #c00;
+  color: white;*/
+}
+
+.main-black{
+  background-color: black;
+  z-index: -1;
+  opacity: 0.4;
+  height: 600px;
+}
+
+.main-img{
+  z-index: -2;
+}
+
+.fixed-img{
+  position: fixed;
+  top: 65px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1350px){
+  .header{
+    height: 400px;
+    font-size: 60px;
+    padding-top: 160px;
+  }
+}
+
+.cover{
+  background-color: white;
+  padding-top: 10px;
+}
+
+.haha{
+  color: white;
+  background-color: black;
+}
+
+iframe{
+  width: 100%;
+  height: 600px;
+}
+
+.footer{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-color: $yellow;
+  color: $blue;
+}
+
+.footer a{
+  color: $blue;
+}
+
+.centuries{
+  margin-top: 30px;
+  border-bottom: 5px solid $yellow;
+}
+
+.centuries div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: $borderGray;
+  cursor: pointer;
+}
+
+.centuries div:last-child{
+  border: 0;
+}
+
+
+@keyframes to-y{
+  to{
+    background-color: $yellow;
+    color: $blue;
+  }
+}
+
+.centuries div:hover{
+  animation-name: to-y;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.history{
+  /*height: 500px;*/
+  margin-top: 15px;
+  margin-bottom: 50px;
+  min-height: 250px;
+}
+
+#years{
+  padding: 0;
+}
+
+#years div{
+  left: 5px;
+  border: $borderGray;
+  border-bottom: 0;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #eee;
+}
+
+#years div:last-child{
+  border-bottom: $borderGray;
+}
+#years div:hover{
+  cursor: pointer;
+}
+
+.choose .col-2{
+  border: $borderGray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  :hover{
+    background-color: #ccc;
+  }
+}
+
+.choose .col-2:hover{
+  animation-name: to-y;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+
+.city{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid $blue;
+}
+
+.city div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: $blue;
+  color: white;
+}
+
+svg *{
+  cursor: pointer;
+}
+

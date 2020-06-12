@@ -1,193 +1,225 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
-
-body{
-    font-family: 'IBM Plex Serif', serif;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap");
+body {
+  font-family: "IBM Plex Serif", serif;
 }
 
-div.nav{
-    width: 100%;
-    padding: 0;
-    overflow: visible;
-    background-color: #003752;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    border-bottom: 1px solid #666;
+.container {
+  padding: 0;
 }
 
-div.nav-item{
-    margin: 20px;
-    margin-left: 0;
-    float: left;
-    vertical-align: middle;
+div.nav {
+  width: 100%;
+  padding: 0;
+  overflow: visible;
+  background-color: #003752;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #666;
 }
 
-
-.right{
-    position: absolute;
-    right: 0;
-    margin-top: 10px !important;
-    margin-right: 50px !important;
+.right {
+  position: absolute;
+  right: 0;
+  margin-top: 10px !important;
+  margin-right: 50px !important;
 }
 
-.nav-item img{
-    height: 44px;
+div.nav-item {
+  margin: 20px;
+  margin-left: 0;
+  float: left;
+  vertical-align: middle;
+}
+div.nav-item img {
+  height: 44px;
+}
+div.nav-item a {
+  color: white;
+}
+div.nav-item a:hover {
+  color: #8EFFF5;
+  text-decoration: none;
 }
 
-div.nav-item:first-child{
-    margin: 20px;
-    padding-left: 100px;
-    position: relative;
-    padding-top: 3px;
+div.nav-item:first-child {
+  margin: 20px;
+  padding-left: 100px;
+  position: relative;
+  padding-top: 3px;
 }
 
-div.nav-item a{
-    /*color: #2b2129;*/
-    color: white;
+.hidden-btn {
+  color: red;
 }
 
-div.nav-item a:hover{
-    color: #89CAFF;
-    text-decoration: none;
+.header1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-.hidden-btn{
-    color: red;
+.header {
+  height: 600px;
+  padding-top: 260px;
+  font-size: 80px;
+  color: white;
+  margin: 0;
+  /*position: sticky;
+  top: 65px;*/
 }
 
-.header1{
-    margin-top: 50px;
-    margin-bottom: 30px;
+h2 {
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  /*background-color: #c00;
+  color: white;*/
 }
 
-.header{
-    height: 600px;
-    padding-top: 260px;
-    font-size: 80px;
-    color: white;
-    margin: 0;
-    /*position: sticky;
-    top: 65px;*/
+.main-black {
+  background-color: black;
+  z-index: -1;
+  opacity: 0.4;
+  height: 600px;
 }
 
-h2{
-    text-align: center;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid rgba(0,0,0,.2);
-    /*background-color: #c00;
-    color: white;*/
+.main-img {
+  z-index: -2;
 }
 
-.main-black{
-    background-color: black;
-    z-index: -1;
-    opacity: 0.4;
-    height: 600px;
+.fixed-img {
+  position: fixed;
+  top: 65px;
+  width: 100%;
 }
 
-.main-img{
-    z-index: -2;
+@media only screen and (max-width: 1350px) {
+  .header {
+    height: 400px;
+    font-size: 60px;
+    padding-top: 160px;
+  }
+}
+.cover {
+  background-color: white;
+  padding-top: 10px;
 }
 
-.fixed-img{
-    position: fixed;
-    top: 65px;
-    width: 100%;
+.haha {
+  color: white;
+  background-color: black;
 }
 
-@media only screen and (max-width: 1350px){
-    h1{
-        height: 400px;
-        font-size: 60px;
-        padding-top: 160px;
-    }
+iframe {
+  width: 100%;
+  height: 600px;
 }
 
-.cover{
-    background-color: white;
-    padding-top: 10px;
+.footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-color: #ffd500;
+  color: #003752;
 }
 
-.haha{
-    color: #fff;
-    background-color: #000;
+.footer a {
+  color: #003752;
 }
 
-iframe{
-    width: 100%;
-    height: 600px;
+.centuries {
+  margin-top: 30px;
+  border-bottom: 5px solid #ffd500;
 }
 
-.footer{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-top: 20px;
+.centuries div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.centuries div:last-child {
+  border: 0;
+}
+
+@keyframes to-y {
+  to {
     background-color: #ffd500;
     color: #003752;
+  }
+}
+.centuries div:hover {
+  animation-name: to-y;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 
-.footer a{
-    color: #003752;
+.history {
+  /*height: 500px;*/
+  margin-top: 15px;
+  margin-bottom: 50px;
+  min-height: 250px;
 }
 
-.centuries{
-    margin-top: 30px;
-    border-bottom: 5px solid #ffd500;
+#years {
+  padding: 0;
 }
 
-.centuries div{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-right: 1px solid rgba(0,0,0,.2);
-    cursor: pointer;
+#years div {
+  left: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #eee;
 }
 
-.centuries div:last-child{
-    border: 0;
+#years div:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-@keyframes to-blue{
-    to{
-
-        background-color: #ffd500;
-        color: #003752;
-    }
+#years div:hover {
+  cursor: pointer;
 }
 
-.centuries div:hover{
-    animation-name: to-blue;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+.choose .col-2 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.choose .col-2 :hover {
+  background-color: #ccc;
 }
 
-.history{
-    /*height: 500px;*/
-    margin-top: 15px;
-    margin-bottom: 50px;
-    min-height: 250px;
+.choose .col-2:hover {
+  animation-name: to-y;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
-#years{
-    padding: 0;
+.city {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #003752;
 }
 
-#years div{
-    left: 5px;
-    border: 1px solid rgba(0,0,0,.2);
-    border-bottom: 0;
-    padding: 10px 15px;
-    width: 100%;
-    background-color: #eee;
+.city div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #003752;
+  color: white;
 }
 
-#years div:last-child{
-    border-bottom: 1px solid rgba(0,0,0,.2);
-}
-#years div:hover{
-    cursor: pointer;
+svg * {
+  cursor: pointer;
 }
 
+/*# sourceMappingURL=styles.css.map */

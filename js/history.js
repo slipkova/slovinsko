@@ -40,11 +40,12 @@ $(()=>{
 
                 //vypise divy s roky
                 $(yeye).slideUp("slow", () => {
+                    let blue = "#008080";
                     yeye.innerHTML = "";
                     for (let year of infoCenturies[centBtns.indexOf(btn)]) {
                         yeye.innerHTML += "<div>" + year.title + "</div>";
                     }
-                    $(yeye.firstChild).css("background-color", "#003752");
+                    $(yeye.firstChild).css("background-color", blue);
                     $(yeye.firstChild).css("color", "white");
 
                     yeyeBtns = Array.from(yeye.children);
@@ -62,7 +63,7 @@ $(()=>{
                                     $(color).css("background-color", "#eee");
                                     $(color).css("color", "black");
                                 }
-                                $(yeyeBtn).css("background-color", "#003752");
+                                $(yeyeBtn).css("background-color", blue);
                                 $(yeyeBtn).css("color", "white");
 
                                 console.log(yeyeBtn);
