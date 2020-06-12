@@ -20,6 +20,15 @@ function changeColor(curr, color){
     })
 }
 
+function changeInfo(element){
+    $("#city-info").fadeOut("fast", function(){
+        document.getElementById("city-info").innerText = $(element).attr("info");
+        $("#city-info").fadeIn("fast", function(){
+            document.getElementById("city").innerText = $(element).attr("name");
+        });
+    });
+}
+
 $(()=>{
     let path = "#pol-map g path";
     let regions = true;
@@ -67,11 +76,6 @@ $(()=>{
     })
 
     $("ellipse").on("click", function(){
-        $("#city-info").fadeOut("fast", function(){
-            document.getElementById("city-info").innerText = $(this).attr("info");
-            $("#city-info").fadeIn("fast", function(){
-                document.getElementById("city").innerText = $(this).attr("name");
-            });
-        });
+        changeInfo(this);
     })
 })
