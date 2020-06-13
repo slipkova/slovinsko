@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -32,19 +33,28 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs414" />
+     id="defs414">
+    <linearGradient
+       id="linearGradient1295"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1293" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      inkscape:current-layer="pol-map"
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="-7"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
      inkscape:cy="327.70055"
-     inkscape:cx="704.21743"
+     inkscape:cx="624.37345"
      inkscape:zoom="0.95185641"
      showgrid="false"
      id="namedview412"
-     inkscape:window-height="1008"
-     inkscape:window-width="1918"
+     inkscape:window-height="1137"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -1104,112 +1114,72 @@
      cy="245.8"
      cx="629.8" />
   <ellipse
-     info="Lublaň (slovinsky Ljubljana) je hlavní město Slovinska, sídlo stejnojmenné městské občiny a je zároveň největší obcí ve Slovinsku. Je zeměpisným, kulturním, vědeckým, ekonomickým, politickým a administrativním centrem státu. Během celé historie byla Lublaň ovlivněna několika kulturami, neboť se nachází na křižovatce germánských, románských a slovanských národů, jejich jazyků, zvyků a obyčejů. Město zaujímá plochu 164 km² a v roce 2019 zde žilo okolo 293 000 obyvatel. Centrem města protéká řeka Lublaňka.
-
-Dopravní spojení, hustota průmyslu, vědecké a výzkumné instituce a obchodní tradice jsou faktory, které přispěly k vedoucí ekonomické pozici Lublaně. Lublaň je sídlem ústřední vlády, veřejné správy a všech slovinských ministerstev. Je také sídlem slovinského Národního shromáždění, slovinské vlády a prezidenta Slovinska, největší univerzity, Národního muzea, Etnografického muzea, Slovinské národní galerie, Muzea moderního umění a Slovinské akademie věd a umění.
-
-Ve starověku na území Lublaně stávalo římské město Emona. Lublaň je poprvé zmiňována v první polovině 12. století. Od středověku až do rozpadu Rakouska-Uherska v roce 1918 byla součástí habsburské říše, poté se stala součástí Království Srbů, Chorvatů a Slovinců. Po druhé světové válce se Lublaň stala hlavním městem Socialistické republiky Slovinsko, která byla součástí Socialistické federativní republiky Jugoslávie. Tento status si udržela až do roku 1991, kdy Slovinsko získalo nezávislost a Lublaň se stala hlavním městem nově vzniklého státu. Nachází se uprostřed obchodní cesty mezi severním Jaderským mořem a oblastí Dunaje, byla historickým hlavním městem Kraňska, jedné z částí Habsburské monarchie obydlené Slovinci."
+     info="Lublaň (slovinsky Ljubljana) je hlavní město Slovinska, sídlo stejnojmenné městské občiny a je zároveň největší obcí ve Slovinsku. Je zeměpisným, kulturním, vědeckým, ekonomickým, politickým a administrativním centrem státu. Během celé historie byla Lublaň ovlivněna několika kulturami, neboť se nachází na křižovatce germánských, románských a slovanských národů, jejich jazyků, zvyků a obyčejů. Město zaujímá plochu 164 km² a v roce 2019 zde žilo okolo 293 000 obyvatel. Centrem města protéká řeka Lublaňka.  Dopravní spojení, hustota průmyslu, vědecké a výzkumné instituce a obchodní tradice jsou faktory, které přispěly k vedoucí ekonomické pozici Lublaně. Lublaň je sídlem ústřední vlády, veřejné správy a všech slovinských ministerstev. Je také sídlem slovinského Národního shromáždění, slovinské vlády a prezidenta Slovinska, největší univerzity, Národního muzea, Etnografického muzea, Slovinské národní galerie, Muzea moderního umění a Slovinské akademie věd a umění.  Ve starověku na území Lublaně stávalo římské město Emona. Lublaň je poprvé zmiňována v první polovině 12. století. Od středověku až do rozpadu Rakouska-Uherska v roce 1918 byla součástí habsburské říše, poté se stala součástí Království Srbů, Chorvatů a Slovinců. Po druhé světové válce se Lublaň stala hlavním městem Socialistické republiky Slovinsko, která byla součástí Socialistické federativní republiky Jugoslávie. Tento status si udržela až do roku 1991, kdy Slovinsko získalo nezávislost a Lublaň se stala hlavním městem nově vzniklého státu. Nachází se uprostřed obchodní cesty mezi severním Jaderským mořem a oblastí Dunaje, byla historickým hlavním městem Kraňska, jedné z částí Habsburské monarchie obydlené Slovinci."
      name="Ljubljana"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836"
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
      id="ljubljana"
      cx="360.83194"
      cy="376.12039"
      rx="6.9658179"
      ry="6.9658175" />
   <ellipse
-     info="Maribor (německy Marburg an der Drau) je druhé největší město ve Slovinsku a sídlo stejnojmenné územně-správní jednotky (občiny). Je univerzitním, hospodářským, finančním, kulturním a turistickým centrem severovýchodního Slovinska. Celá občina Maribor má 95 171 obyvatel. Město leží na úpatí horského masivu Pohorje a protéká jím řeka Dráva.
-
-Ve městě působí významné divadlo a je zde druhá největší slovinská univerzita – Univerzita v Mariboru, založená v roce 1975. Jsou zde také galerie, muzea a sportovní kluby.
-
-Hlavním průmyslovým podnikem je zde TAMBUS Maribor, který vyráběl až do roku 1996 autobusy pro celou Jugoslávii, i pro některé země východního bloku."
+     info="Maribor (německy Marburg an der Drau) je druhé největší město ve Slovinsku a sídlo stejnojmenné územně-správní jednotky (občiny). Je univerzitním, hospodářským, finančním, kulturním a turistickým centrem severovýchodního Slovinska. Celá občina Maribor má 95 171 obyvatel. Město leží na úpatí horského masivu Pohorje a protéká jím řeka Dráva.  Ve městě působí významné divadlo a je zde druhá největší slovinská univerzita – Univerzita v Mariboru, založená v roce 1975. Jsou zde také galerie, muzea a sportovní kluby.  Hlavním průmyslovým podnikem je zde TAMBUS Maribor, který vyráběl až do roku 1996 autobusy pro celou Jugoslávii, i pro některé země východního bloku."
      name="Maribor"
      ry="6.9658175"
      rx="6.9658179"
      cy="146.58911"
      cx="723.95239"
      id="maribor"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836" />
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
   <ellipse
-     info="Novo mesto (německy Rudolfswerth) je město ve Slovinsku. Leží na jihu země, u hranice s Chorvatskem na řece Krka. Je centrem historického regionu Dolní Kraňsko (Dolenjska), statistického Jihovýchodního slovinského regionu a městské občiny Novo mesto. Žije zde 22 415 obyvatel (v celé občině 40 925). Leží v nadmořské výšce 202 m.
-
-Novo mesto vzniklo v roce 1365, bylo založeno na dosud ještě neosídleném místě, v meandru řeky Krka. Až do roku 1768 bylo obehnáno hradbami; právě díky nim jej Turci při svém tažení po Balkáně nedobyli. Přesto se ale malé úseky hradeb dochovaly až dodnes. V 19. století městu vládli krátkou dobu Francouzi; v jeho druhé polovině zde probíhalo národní obrození Slovinců. Výstavba železnice a průmyslu zajišťovala velký růst města, ten však ukončila 1. světová válka v roce 1914. Po první světové válce bylo město součástí království jižních Slovanů, za druhé světové války bylo součástí italského záboru, po roce 1943 pak říšskoněmeckého. Jugoslávská vláda tu byla obnovena po druhé světové válce. V 2. polovině 20. století se město zmodernizovalo, vzniklo mnoho nových závodů. Od roku 1991 je součástí nezávislého Slovinska.
-
-V zdejším průmyslu má velký vliv automobilový, v Novom mestu dříve sídlil závod Industrija motornih vozil (Revoz), který vyráběl ve spolupráci se západoevropskými automobilkami Renault, Auto Union a koncernem Daimler. Kromě něj zde například sídlí firma Krka – známý výrobce léčiv a také dále pak textilní firma Labod a lesnická Novoles.
-
-V Novom meste se nachází také pět základních škol (OŠ Grm, OŠ Bršljin, OŠ Drska, OŠ Center, OŠ Šmihel), střední školy a vysokološkolské centrum."
+     info="Novo mesto (německy Rudolfswerth) je město ve Slovinsku. Leží na jihu země, u hranice s Chorvatskem na řece Krka. Je centrem historického regionu Dolní Kraňsko (Dolenjska), statistického Jihovýchodního slovinského regionu a městské občiny Novo mesto. Žije zde 22 415 obyvatel (v celé občině 40 925). Leží v nadmořské výšce 202 m.  Novo mesto vzniklo v roce 1365, bylo založeno na dosud ještě neosídleném místě, v meandru řeky Krka. Až do roku 1768 bylo obehnáno hradbami; právě díky nim jej Turci při svém tažení po Balkáně nedobyli. Přesto se ale malé úseky hradeb dochovaly až dodnes. V 19. století městu vládli krátkou dobu Francouzi; v jeho druhé polovině zde probíhalo národní obrození Slovinců. Výstavba železnice a průmyslu zajišťovala velký růst města, ten však ukončila 1. světová válka v roce 1914. Po první světové válce bylo město součástí království jižních Slovanů, za druhé světové války bylo součástí italského záboru, po roce 1943 pak říšskoněmeckého. Jugoslávská vláda tu byla obnovena po druhé světové válce. V 2. polovině 20. století se město zmodernizovalo, vzniklo mnoho nových závodů. Od roku 1991 je součástí nezávislého Slovinska.  V zdejším průmyslu má velký vliv automobilový, v Novom mestu dříve sídlil závod Industrija motornih vozil (Revoz), který vyráběl ve spolupráci se západoevropskými automobilkami Renault, Auto Union a koncernem Daimler. Kromě něj zde například sídlí firma Krka – známý výrobce léčiv a také dále pak textilní firma Labod a lesnická Novoles.  V Novom meste se nachází také pět základních škol (OŠ Grm, OŠ Bršljin, OŠ Drska, OŠ Center, OŠ Šmihel), střední školy a vysokološkolské centrum."
      name="Novo mesto"
      ry="6.9658175"
      rx="6.9658179"
      cy="495.52518"
      cx="567.4707"
      id="novo-mesto"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836" />
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1" />
   <ellipse
-     info="Koper (italsky Capodistria, chorvatsky Kopar, německy Gafers) je město ve Slovinsku na pobřeží Jaderského moře. Žije zde 23 726 obyvatel (2002), s celou občinou, jejímž je sídlem, 49 200 obyvatel. Koper je nejdůležitějším přístavem země.
-
-Z původních dvanácti městských bran se nejlépe zachovala Muda (Porta della Muda, vrata Muda) z roku 1516. Ústřední městské náměstí nese jméno po maršálu Titovi (Titov trg) a nacházejí se na něm další významné památky – Prétorský palác, Lóže, katedrála Nanebevzetí Panny Marie a rotunda sv. Jana Křtitele.
-
-Koper byl významným obchodním bodem a svým významem konkuroval nedalekému Terstu. První ranou, ze které se vzpamatoval, byl mor, který v sedmnáctém století srazil počet obyvatel na osminu. Obnovená prosperita trvala do roku 1719, kdy se z Terstu a Rijeky staly svobodné přístavy. Pád Benátské republiky znamenal ztrátu dominance na Jadranu. Význam města snížil po otevření železnice z Vídně do Terstu."
+     info="Koper (italsky Capodistria, chorvatsky Kopar, německy Gafers) je město ve Slovinsku na pobřeží Jaderského moře. Žije zde 23 726 obyvatel (2002), s celou občinou, jejímž je sídlem, 49 200 obyvatel. Koper je nejdůležitějším přístavem země.  Z původních dvanácti městských bran se nejlépe zachovala Muda (Porta della Muda, vrata Muda) z roku 1516. Ústřední městské náměstí nese jméno po maršálu Titovi (Titov trg) a nacházejí se na něm další významné památky – Prétorský palác, Lóže, katedrála Nanebevzetí Panny Marie a rotunda sv. Jana Křtitele.  Koper byl významným obchodním bodem a svým významem konkuroval nedalekému Terstu. První ranou, ze které se vzpamatoval, byl mor, který v sedmnáctém století srazil počet obyvatel na osminu. Obnovená prosperita trvala do roku 1719, kdy se z Terstu a Rijeky staly svobodné přístavy. Pád Benátské republiky znamenal ztrátu dominance na Jadranu. Význam města snížil po otevření železnice z Vídně do Terstu."
      name="Koper"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836"
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
      id="koper"
      cx="120.50888"
      cy="620.53058"
      rx="6.9658179"
      ry="6.9658175" />
   <ellipse
-     info="Nova Gorica (německy Neu Görz) je desáté největší slovinské město. Město bylo vybudováno po roce 1948 v těsném sousedství zástavby italského města Gorizia (česky Gorice).
-
-Město Gorizia bylo osvobozeno 1. května 1945. Oblast byla demarkační linií rozdělena na zóny. Zónu A okupovaly anglo-americké jednotky, zónu B Jugoslávská lidová armáda. Po podpisu Pařížské mírové smlouvy došlo ke změně jugoslávsko-italské hranice, když se jugoslávská hranice posunula do původní historické hranice Rakouského Přímoří s výjimkou jižní části, kde oblast Gorice připadla Itálii. Oblast se ale díky takovému rozdělení ocitla bez správního centra, které zůstalo v Itálii. Rozhodnutí o výstavbě nového centra poprvé zaznělo v projevu slovinského předsedy vlády Miha Marinky, výstavbou byl pověřen ministr Ivan Maček. Pracovní skupina odpovědná za výstavbu nového města vznikla již v dubnu 1947. Autorem plánu výstavby byl prof. Ing. Edvard Ravnikar.
-
-Přípravné práce pro výstavbu nového města byly zahájeny v říjnu 1947. Výstavba se již od počátku musela potýkat s nedostatkem stavebních materiálů, pracovní síly a finančních prostředků. Nasazeny byly brigády mladých. Výstavba pokračovala i navzdory jugoslávsko-sovětské roztržce. Do konce roku 1950 žilo ve městě sedm set lidí. Skutečný rozvoj města započal až v roce 1965."
+     info="Nova Gorica (německy Neu Görz) je desáté největší slovinské město. Město bylo vybudováno po roce 1948 v těsném sousedství zástavby italského města Gorizia (česky Gorice).  Město Gorizia bylo osvobozeno 1. května 1945. Oblast byla demarkační linií rozdělena na zóny. Zónu A okupovaly anglo-americké jednotky, zónu B Jugoslávská lidová armáda. Po podpisu Pařížské mírové smlouvy došlo ke změně jugoslávsko-italské hranice, když se jugoslávská hranice posunula do původní historické hranice Rakouského Přímoří s výjimkou jižní části, kde oblast Gorice připadla Itálii. Oblast se ale díky takovému rozdělení ocitla bez správního centra, které zůstalo v Itálii. Rozhodnutí o výstavbě nového centra poprvé zaznělo v projevu slovinského předsedy vlády Miha Marinky, výstavbou byl pověřen ministr Ivan Maček. Pracovní skupina odpovědná za výstavbu nového města vznikla již v dubnu 1947. Autorem plánu výstavby byl prof. Ing. Edvard Ravnikar.  Přípravné práce pro výstavbu nového města byly zahájeny v říjnu 1947. Výstavba se již od počátku musela potýkat s nedostatkem stavebních materiálů, pracovní síly a finančních prostředků. Nasazeny byly brigády mladých. Výstavba pokračovala i navzdory jugoslávsko-sovětské roztržce. Do konce roku 1950 žilo ve městě sedm set lidí. Skutečný rozvoj města započal až v roce 1965."
      name="Nova Gorica"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836"
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
      id="nova-gorica"
      cx="90.831306"
      cy="419.9823"
      rx="6.9658179"
      ry="6.9658175" />
   <ellipse
-     info="Kranj (česky též Kraň, německy Krainburg) je čtvrté největší město a územně-správní jednotka (občina) ve Slovinsku v historické zemi Kraňsku, jehož metropolí původně bylo, než se jí stala Lublaň. Žije zde zhruba 37 000 obyvatel.
-
-V roce 1900 mělo město dva tisíce obyvatel, z nichž většina byla Slovinců. V roce 1906 získalo díky projektu „nových alpských železnic“ přímý přístup přes tunel Karavanky a Villach do severozápadních částí monarchie a do Německa.
-
-Po první světové válce se Kranj stal součástí Státu Slovinců, Chorvatů a Srbů a následnně Království Srbů, Chorvatů a Slovinců (pozdější Jugoslávie). Meziválečný rozvoj města byl umožněn díky zahraničnímu kapitálu. Za druhé světové války bylo město součástí říšskoněmeckého záboru. V oblasti bojovali proti okupantům partyzáni. Po druhé světové válce se město stalo součástí Jugoslávie a po roce 1991 samostatného Slovinska.
-
-V Kranji prožil poslední roky života slovinský „národní básník“ France Prešeren (1800–1849). Je zde po něm pojmenována řada institucí."
+     info="Kranj (česky též Kraň, německy Krainburg) je čtvrté největší město a územně-správní jednotka (občina) ve Slovinsku v historické zemi Kraňsku, jehož metropolí původně bylo, než se jí stala Lublaň. Žije zde zhruba 37 000 obyvatel.  V roce 1900 mělo město dva tisíce obyvatel, z nichž většina byla Slovinců. V roce 1906 získalo díky projektu „nových alpských železnic“ přímý přístup přes tunel Karavanky a Villach do severozápadních částí monarchie a do Německa.  Po první světové válce se Kranj stal součástí Státu Slovinců, Chorvatů a Srbů a následnně Království Srbů, Chorvatů a Slovinců (pozdější Jugoslávie). Meziválečný rozvoj města byl umožněn díky zahraničnímu kapitálu. Za druhé světové války bylo město součástí říšskoněmeckého záboru. V oblasti bojovali proti okupantům partyzáni. Po druhé světové válce se město stalo součástí Jugoslávie a po roce 1991 samostatného Slovinska.  V Kranji prožil poslední roky života slovinský „národní básník“ France Prešeren (1800–1849). Je zde po něm pojmenována řada institucí."
      name="Kranj"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836"
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
      id="kranj"
      cx="335.44623"
      cy="313.86258"
      rx="6.9658179"
      ry="6.9658175" />
   <ellipse
-     info="Ptuj (německy Pettau, latinsky Poetovio) je město ve slovinském Dolním Štýrsku u hranic s Chorvatskem. Žije zde asi 20 000 obyvatel.
-
-Ptuj je jedno z nejstarších měst v celém Slovinsku. Nachází se 27 km na jihovýchod od Mariboru. Jeho historie začíná už v době kamenné, ale největší rozkvět zažívalo za dob Římské říše. Město Poetovio bylo základním táborem pro legii XIII Gemina v Pannonii. Název města pochází z dob císaře Trajána, který dal tehdejší osadě statut města a pojmenoval ho Colonia Ulpia Traiana Poetovio. Roku 69 pak zde byl zvolen císař Vespasianus a z této doby také pochází první písemná zmínka o městu. Vyplenili jej ale Hunové, je vystřídali Avaři a později Slované. Městská práva pak ve středověku Ptuj získala opět až v 10. století.
-
-Ve městě se nachází známé termální lázně, ve kterých je bazén s teplotou vody přesahující 40 °C."
+     info="Ptuj (německy Pettau, latinsky Poetovio) je město ve slovinském Dolním Štýrsku u hranic s Chorvatskem. Žije zde asi 20 000 obyvatel.  Ptuj je jedno z nejstarších měst v celém Slovinsku. Nachází se 27 km na jihovýchod od Mariboru. Jeho historie začíná už v době kamenné, ale největší rozkvět zažívalo za dob Římské říše. Město Poetovio bylo základním táborem pro legii XIII Gemina v Pannonii. Název města pochází z dob císaře Trajána, který dal tehdejší osadě statut města a pojmenoval ho Colonia Ulpia Traiana Poetovio. Roku 69 pak zde byl zvolen císař Vespasianus a z této doby také pochází první písemná zmínka o městu. Vyplenili jej ale Hunové, je vystřídali Avaři a později Slované. Městská práva pak ve středověku Ptuj získala opět až v 10. století.  Ve městě se nachází známé termální lázně, ve kterých je bazén s teplotou vody přesahující 40 °C."
      name="Ptuj"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836"
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
      id="ptuj"
      cx="793.20001"
      cy="209.5415"
      rx="6.9658179"
      ry="6.9658175" />
   <ellipse
-     info="Celje (německy Cilli, latinsky Celeia) je slovinské město v Dolním Štýrsku. Žije zde 37 834 obyvatel.
-
-V předválečném období mělo Celje s přilehlými osadami přibližně dvacet tisíc obyvatel. V průběhu války zemřelo 575 občanů, převážně ve věku od dvaceti do třiceti let, přes jeden a půl tisíce obyvatel bylo deportováno do Srbska nebo do Říše, kolem tisíce osob bylo uvězněno a šest set místních dětí bylo převezeno do Německa ke germanizaci.
-
-V letech 1945 až 1946 byli v městské částí Teharje (Tüchern) popraveni domnělí kolaboranti, nacisté a přisluhovači Domobrany. Přeživší Němci byli vysídleni. Obětem z Teharje byl po osamostatnění Slovinska postaven pomník.
-
-V dobách socialistické Jugoslávie bylo město průmyslovým centrem a počet obyvatel se oproti meziválečnému období zdvojnásobil. Od roku 1991 je Celje součástí samostatného Slovinska.
-
-Kolem Celje vede významná dálnice spojující Maribor a Lublaň. Mimo této dálnice zde vede jedna z hlavních železničních tepen Slovinska z Mariboru do Zidani Most a Lublaně."
+     info="Celje (německy Cilli, latinsky Celeia) je slovinské město v Dolním Štýrsku. Žije zde 37 834 obyvatel.  V předválečném období mělo Celje s přilehlými osadami přibližně dvacet tisíc obyvatel. V průběhu války zemřelo 575 občanů, převážně ve věku od dvaceti do třiceti let, přes jeden a půl tisíce obyvatel bylo deportováno do Srbska nebo do Říše, kolem tisíce osob bylo uvězněno a šest set místních dětí bylo převezeno do Německa ke germanizaci.  V letech 1945 až 1946 byli v městské částí Teharje (Tüchern) popraveni domnělí kolaboranti, nacisté a přisluhovači Domobrany. Přeživší Němci byli vysídleni. Obětem z Teharje byl po osamostatnění Slovinska postaven pomník.  V dobách socialistické Jugoslávie bylo město průmyslovým centrem a počet obyvatel se oproti meziválečnému období zdvojnásobil. Od roku 1991 je Celje součástí samostatného Slovinska.  Kolem Celje vede významná dálnice spojující Maribor a Lublaň. Mimo této dálnice zde vede jedna z hlavních železničních tepen Slovinska z Mariboru do Zidani Most a Lublaně."
      name="Celje"
-     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06836"
+     style="fill:#003752;fill-opacity:1;fill-rule:evenodd;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
      id="celje"
      cx="582.75922"
      cy="284.18503"

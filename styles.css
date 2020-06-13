@@ -125,6 +125,7 @@ iframe {
   margin-top: 20px;
   background-color: #ffd500;
   color: #003752;
+  border-top: 2px solid #003752;
 }
 
 .footer a {
@@ -216,6 +217,10 @@ iframe {
   text-align: center;
   background-color: #003752;
   color: white;
+}
+
+#region {
+  background-color: #ffd500;
 }
 
 svg * {

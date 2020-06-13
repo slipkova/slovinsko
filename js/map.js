@@ -1,16 +1,18 @@
 let yellow = "#ffd500";
 let gray = "rgb(204, 204, 204)";
+let lightBlue = "#008080";
+let darkBlue = "#003752";
 let active;
 
-function toggleColor(colors, color){
-    if(color == colors[0])
-        return colors[1];
+function toggleItems(items, curr){
+    if(curr == items[0])
+        return items[1];
     else
-        return colors[0];
+        return items[0];
 }
 
 function mouseover(curr){
-    $(curr).css("fill", toggleColor([gray, yellow], $(curr).css("fill")));
+    $(curr).css("fill", toggleItems([gray, yellow], $(curr).css("fill")));
 }
 
 function changeColor(curr, color){
@@ -21,9 +23,9 @@ function changeColor(curr, color){
 }
 
 function changeInfo(element){
-    $("#city-info").fadeOut("fast", function(){
-        document.getElementById("city-info").innerText = $(element).attr("info");
-        $("#city-info").fadeIn("fast", function(){
+    $("#info").fadeOut("fast", function(){
+        document.getElementById("info").innerText = $(element).attr("info");
+        $("#info").fadeIn("fast", function(){
             document.getElementById("city").innerText = $(element).attr("name");
         });
     });
@@ -32,7 +34,13 @@ function changeInfo(element){
 $(()=>{
     let path = "#pol-map g path";
     let regions = true;
+
     $("#regions").css("background-color", yellow);
+    changeColor("ellipse#ljubljana", lightBlue);
+    changeInfo("ellipse#ljubljana");
+    active = document.getElementById("osrednjeslovenska");
+    for(let town of $("#pol-map #osrednjeslovenska *"))
+        changeColor(town, yellow);
 
     $("#regions, #townships").on("click", function(){
         for(let town of $(path))
@@ -48,13 +56,15 @@ $(()=>{
 
     $(path).on("mouseenter mouseleave", function(){
         if(regions && this.parentElement != active){
+            console.log(this.parentElement);
+            console.log(active);
             for(let town of $(this.parentElement.children)){
                 if($(town).attr("fill") != yellow)
                     mouseover(town);
             }
 
         }
-        else
+        else if(!regions && this.parentElement != active)
             mouseover(this);
     })
 
@@ -67,7 +77,7 @@ $(()=>{
             for(let town of $(this.parentElement.children)){
                 changeColor(town, yellow);
             }
-            console.log($(active).attr("id"));
+            console.log($(active));
         }else{
             changeColor(this, yellow);
             console.log($(this).attr("name"));
@@ -75,7 +85,15 @@ $(()=>{
 
     })
 
+    $("ellipse").on("mouseenter mouseleave", function(){
+        $(this).css("stroke-width", toggleItems(["1.5px", "3px"], $(this).css("stroke-width")));
+    })
+
     $("ellipse").on("click", function(){
+        for(let city of $("ellipse")){
+            changeColor(city, darkBlue);
+        }
+        changeColor(this, lightBlue);
         changeInfo(this);
     })
 })

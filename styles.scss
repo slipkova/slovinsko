@@ -131,6 +131,7 @@ iframe{
   margin-top: 20px;
   background-color: $yellow;
   color: $blue;
+  border-top: 2px solid $blue;
 }
 
 .footer a{
@@ -224,6 +225,10 @@ iframe{
   text-align: center;
   background-color: $blue;
   color: white;
+}
+
+#region{
+  background-color: $yellow;
 }
 
 svg *{
