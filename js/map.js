@@ -81,6 +81,8 @@ $(()=>{
             $("#region").removeClass("region").addClass("region-off");
             changeBorder(darkBlue);
             document.getElementById("region").innerText = "";
+            changeImg(activeCity);
+            changeInfo(activeCity, "city");
         }
         console.log(regions);
     })

@@ -216,8 +216,6 @@ iframe {
   text-align: center;
   background-color: #003752;
   color: white;
-}
-.city div :hover {
   cursor: pointer;
 }
 
@@ -229,8 +227,6 @@ iframe {
 .region-off {
   background-color: white !important;
   color: white !important;
-}
-.region-off :hover {
   cursor: default !important;
 }
 

@@ -222,9 +222,7 @@ iframe{
     text-align: center;
     background-color: $blue;
     color: white;
-    :hover{
-      cursor: pointer;
-    }
+    cursor: pointer;
   }
 
 }
@@ -237,9 +235,7 @@ iframe{
 .region-off{
   background-color: white !important;
   color: white !important;
-  :hover{
-    cursor: default !important;
-  }
+  cursor: default !important;
 }
 
 svg{
