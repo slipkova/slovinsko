@@ -212,26 +212,57 @@ iframe{
   cursor: pointer;
 }
 
-
-.city{
+.city {
   margin-top: 30px;
   margin-bottom: 20px;
-  border-bottom: 5px solid $blue;
+  border-bottom: 7px solid $blue;
+  width: 100%;
+  div {
+    padding: 10px 0;
+    text-align: center;
+    background-color: $blue;
+    color: white;
+    :hover{
+      cursor: pointer;
+    }
+  }
+
 }
 
-.city div{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  background-color: $blue;
-  color: white;
+.region{
+  background-color: $yellow !important;
+  color: $blue !important;
 }
 
-#region{
+.region-off{
+  background-color: white !important;
+  color: white !important;
+  :hover{
+    cursor: default !important;
+  }
+}
+
+svg{
+  width: 100%;
+  *{
+    cursor: pointer;
+  }
+}
+
+#foto{
+  padding: 0 5px;
+  img{
+    width: 100%;
+  }
+}
+
+.township{
   background-color: $yellow;
-}
+  color: $blue;
+  position: relative;
+  float: right;
+  top: -70px;
+  right: 50px;
+  padding: 15px;
 
-svg *{
-  cursor: pointer;
 }
-

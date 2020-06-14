@@ -1,8 +1,9 @@
 let yellow = "#ffd500";
 let gray = "rgb(204, 204, 204)";
-let lightBlue = "#008080";
+let lightBlue = "#00bebe";
 let darkBlue = "#003752";
-let active;
+let activeRegion;
+let activeCity;
 
 function toggleItems(items, curr){
     if(curr == items[0])
@@ -22,13 +23,30 @@ function changeColor(curr, color){
     })
 }
 
-function changeInfo(element){
+function changeInfo(element, idName){
     $("#info").fadeOut("fast", function(){
         document.getElementById("info").innerText = $(element).attr("info");
         $("#info").fadeIn("fast", function(){
-            document.getElementById("city").innerText = $(element).attr("name");
+            document.getElementById(idName).innerText = $(element).attr("name");
         });
     });
+}
+
+function changeBorder(color){
+    $("#names").css("border-color", color);
+}
+
+function changeImg(element){
+    console.log($(element).attr("id"));
+    $("#foto").addClass("col-4");
+    $("#info").addClass("col-8");
+    document.getElementById("foto").innerHTML = "<img src='../img/geo/" + $(element).attr("id") + ".jpg'>";
+}
+
+function removeImg(){
+    $("#foto").removeClass("col-4");
+    $("#info").removeClass("col-8");
+    document.getElementById("foto").innerHTML = "";
 }
 
 $(()=>{
@@ -37,8 +55,11 @@ $(()=>{
 
     $("#regions").css("background-color", yellow);
     changeColor("ellipse#ljubljana", lightBlue);
-    changeInfo("ellipse#ljubljana");
-    active = document.getElementById("osrednjeslovenska");
+    changeInfo("ellipse#ljubljana", "city");
+    activeRegion = document.getElementById("osrednjeslovenska");
+    activeCity = document.getElementById("ljubljana");
+    changeImg(activeCity);
+    document.getElementById("region").innerText = $("#osrednjeslovenska").attr("name");
     for(let town of $("#pol-map #osrednjeslovenska *"))
         changeColor(town, yellow);
 
@@ -47,24 +68,34 @@ $(()=>{
             changeColor(town, gray);
         $("#regions, #townships").css("background-color", "white");
         $(this).css("background-color", yellow);
-        if($(this).attr("id") == "regions") regions = true;
-        else regions = false;
+        if($(this).attr("id") == "regions"){
+            regions = true;
+            $("#region").removeClass("region-off").addClass("region");
+            for(let town of $("#pol-map #osrednjeslovenska *"))
+                changeColor(town, yellow);
+            document.getElementById("region").innerText = $("#osrednjeslovenska").attr("name");
+            document.getElementById("township").innerText = "";
+            $("#township").removeClass("township");
+        }else{
+            regions = false;
+            $("#region").removeClass("region").addClass("region-off");
+            changeBorder(darkBlue);
+            document.getElementById("region").innerText = "";
+        }
         console.log(regions);
     })
 
 
 
     $(path).on("mouseenter mouseleave", function(){
-        if(regions && this.parentElement != active){
-            console.log(this.parentElement);
-            console.log(active);
+        if(regions && this.parentElement != activeRegion){
             for(let town of $(this.parentElement.children)){
                 if($(town).attr("fill") != yellow)
                     mouseover(town);
             }
 
         }
-        else if(!regions && this.parentElement != active)
+        else if(!regions && this.parentElement != activeRegion)
             mouseover(this);
     })
 
@@ -73,14 +104,17 @@ $(()=>{
             changeColor(town, gray);
         }
         if(regions){
-            active = this.parentElement;
+            activeRegion = this.parentElement;
             for(let town of $(this.parentElement.children)){
                 changeColor(town, yellow);
             }
-            console.log($(active));
+            removeImg();
+            changeInfo(activeRegion, "region");
+            changeBorder(yellow);
         }else{
             changeColor(this, yellow);
-            console.log($(this).attr("name"));
+            document.getElementById("township").innerText = $(this).attr("name");
+            $("#township").addClass("township");
         }
 
     })
@@ -90,10 +124,27 @@ $(()=>{
     })
 
     $("ellipse").on("click", function(){
+        activeCity = $(this);
         for(let city of $("ellipse")){
             changeColor(city, darkBlue);
         }
         changeColor(this, lightBlue);
-        changeInfo(this);
+        changeImg(activeCity);
+        changeInfo(activeCity, "city");
+        changeBorder(darkBlue);
+    })
+
+    $("#city").on("click", function(){
+        changeBorder(darkBlue);
+        changeInfo(activeCity, "city");
+        changeImg(activeCity);
+    })
+
+    $("#region").on("click", function(){
+        if(regions){
+            changeBorder(yellow);
+            removeImg();
+            changeInfo(activeRegion, "region");
+        }
     })
 })

@@ -208,23 +208,54 @@ iframe {
 .city {
   margin-top: 30px;
   margin-bottom: 20px;
-  border-bottom: 5px solid #003752;
+  border-bottom: 7px solid #003752;
+  width: 100%;
 }
-
 .city div {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   text-align: center;
   background-color: #003752;
   color: white;
 }
-
-#region {
-  background-color: #ffd500;
+.city div :hover {
+  cursor: pointer;
 }
 
+.region {
+  background-color: #ffd500 !important;
+  color: #003752 !important;
+}
+
+.region-off {
+  background-color: white !important;
+  color: white !important;
+}
+.region-off :hover {
+  cursor: default !important;
+}
+
+svg {
+  width: 100%;
+}
 svg * {
   cursor: pointer;
+}
+
+#foto {
+  padding: 0 5px;
+}
+#foto img {
+  width: 100%;
+}
+
+.township {
+  background-color: #ffd500;
+  color: #003752;
+  position: relative;
+  float: right;
+  top: -70px;
+  right: 50px;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
